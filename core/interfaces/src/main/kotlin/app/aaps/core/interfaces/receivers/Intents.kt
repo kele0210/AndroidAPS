@@ -42,16 +42,19 @@ interface Intents {
         const val POCTECH_BG = "com.china.poctech.data"
         const val TOMATO_BG = "com.fanqies.tomatofn.BgEstimate"
 
-        // Patched Ottai App -> AAPS
-        const val OTAPP_BG = "cn.diyaps.sharing.OT_APP"
-
-        // Patched SI App -> AAPS
-        const val SIAPP_BG = "cn.diyaps.sharing.SI_APP"
-
-        // Patched Sino App -> AAPS
-        const val SINOAPP_BG = "cn.diyaps.sharing.SINO_APP"
-
         // Broadcast status
         const val AAPS_BROADCAST = "info.nightscout.androidaps.status"
+        // Patched Ottai App -> AAPS (International)
+        const val OTTAI_APP = "info.nightscout.androidaps.action.OTTAI_APP"
+        // Patched Ottai App -> AAPS (China)
+        const val OTTAI_APP_CN = "cn.diyaps.sharing.OT_APP"
+
+        // Patched SI App -> AAPS
+        const val SI_APP = "cn.diyaps.sharing.SI_APP"
+
+        // Patched Sino App -> AAPS
+        const val SINO_APP = "cn.diyaps.sharing.SINO_APP"
+        // Patched Syai Tag App -> AAPS
+        const val SYAI_APP = "info.nightscout.androidaps.action.SYAI_TAG_APP"
     }
 }

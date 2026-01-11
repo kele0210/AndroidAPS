@@ -90,7 +90,6 @@
     <string name="menu_default">Standaard</string>
     <string name="menu_menu">Menu</string>
     <string name="quick_wizard_short">XL</string>
-    <string name="action_duration">Duur</string>
     <string name="action_tempt_confirmation">Tijdelijk streefdoel aangevraagd</string>
     <string name="action_quick_wizard_confirmation">QuickWizard aangevraagd</string>
     <string name="action_user_action_confirmation">Gebruiker actie aangevraagd</string>
@@ -100,13 +99,8 @@
     <string name="action_fill_confirmation">Vullen aangevraagd</string>
     <string name="action_ecarb_confirmation">Koolhydraten aangevraagd</string>
     <string name="action_profile_switch_confirmation">Profiel wisselen aangevraagd</string>
-    <string name="action_target" comment="In temp target menu, single target value">Doel</string>
-    <string name="action_low" comment="In temp target menu, lower value from range">Laag</string>
-    <string name="action_high" comment="In temp target menu, higher value from range">Hoog</string>
     <string name="action_carbs">Koolhydraten</string>
     <string name="action_ecarbs">eCarbs</string>
-    <string name="action_percentage">Percentage</string>
-    <string name="action_start_min">Start [min]</string>
     <string name="action_duration_h">Duur [h]</string>
     <string name="action_insulin">Insuline</string>
     <string name="action_preset_1">Voorinstelling 1</string>
@@ -114,7 +108,6 @@
     <string name="action_preset_3">Voorinstelling 3</string>
     <string name="action_free_amount" comment="In prime/fill menu, allows one to enter any amount to be used for priming/filling">Vrije hoeveelheid</string>
     <string name="action_confirm">BEVESTIGEN</string>
-    <string name="action_timeshift">tijdsverschuiving</string>
     <string name="bolus_progress">Bolus voortgang</string>
     <string name="press_to_cancel">druk om te annuleren</string>
     <string name="cancel_bolus">BOLUS ANNULEREN</string>
@@ -148,20 +141,15 @@
     <string name="color_name_black">zwart</string>
     <string name="color_name_multicolor">multicolor</string>
     <string name="pref_simplify_ui">Versimpel interface</string>
-    <string name="pref_simplify_ui_sum">Alleen tijd en BG weergeven</string>
     <string name="pref_vibrate_hourly">Tril ieder uur</string>
     <string name="pref_show_weeknumber">Weeknummer weergeven</string>
     <string name="pref_include_external">Externe weergaven opnemen in sjabloon</string>
     <string name="pref_switch_external">Externe data wijzigen in watchface</string>
     <string name="custom_pref_show_seconds">Toon seconden</string>
-    <string name="digitalstyle_pref_your_style">Jouw stijl:</string>
     <string name="digitalstyle_style_none">geen stijl</string>
     <string name="digitalstyle_style_minimal">minimale stijl</string>
     <string name="digitalstyle_style_shape">vormstijl</string>
     <string name="digitalstyle_style_full">volledige stijl</string>
-    <string name="digitalstyle_pref_your_color">Jouw kleur:</string>
-    <string name="digitalstyle_pref_your_color_saturation">Jouw kleurverzadiging:</string>
-    <string name="digitalstyle_pref_your_color_opacity">Jouw kleurendoorzichtigheid:</string>
     <string name="bolus_progress_channel_name">AAPS Bolus Voortgang</string>
     <string name="bolus_progress_silent_channel_name">AAPS Bolus Voortgang Stil</string>
     <string name="bolus_progress_channel_description">Bolus voortgang en annuleer</string>
@@ -224,4 +212,22 @@
     <string name="complication_iob_icon">IoB icoon</string>
     <string name="complication_iob_detailed">Gedetailleerde IoB</string>
     <string name="complication_uploader_phone_battery">Uploader/Telefoon Batterij</string>
+    <string name="wizard_total_insulin">Totale insuline</string>
+    <string name="wizard_calculation">Berekening</string>
+    <string name="wizard_carbs_format">%1$d gr koolhydraten</string>
+    <string name="wizard_settings_format">IC: %1$s | ISF: %2$s</string>
+    <string name="wizard_swipe_left_confirm">Veeg naar links om te bevestigen</string>
+    <string name="wizard_result_bg">BG</string>
+    <string name="wizard_result_bg_tt">BG (TT: %1$s)</string>
+    <string name="wizard_result_trend">15min trend</string>
+    <string name="wizard_result_iob">IOB</string>
+    <string name="wizard_result_cob">COB (%1$.1f g)</string>
+    <string name="wizard_result_carbs">Koolhydraten (%1$d g)</string>
+    <string name="wizard_result_subtotal">Subtotaal</string>
+    <string name="wizard_result_total">Totaal</string>
+    <string name="wizard_insulin_format">%1$s E</string>
+    <string name="insulin_unit_short">E</string>
+    <string name="wizard_result_correction_percentage">Corr. %1$d%%</string>
+    <string name="expand_calculation_details">Klik om rekendetails uit te vouwen</string>
+    <string name="wizard_confirmation_sent">Verzonden</string>
 </resources>

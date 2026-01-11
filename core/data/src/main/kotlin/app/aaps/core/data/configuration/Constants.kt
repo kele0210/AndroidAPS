@@ -10,13 +10,16 @@ object Constants {
     const val defaultDIA = 5.0
     const val notificationID = 556677
 
+    // OpenAPS algorithm
+    const val ALLOW_SMB_WITH_HIGH_TT = 100
+
     // SMS COMMUNICATOR
     const val remoteBolusMinDistance = 15 * 60 * 1000L
 
     // Circadian Percentage Profile
     const val CPP_MIN_PERCENTAGE = 30
     const val CPP_MAX_PERCENTAGE = 250
-    const val CPP_MIN_TIMESHIFT = -6
+    const val CPP_MIN_TIMESHIFT = -23
     const val CPP_MAX_TIMESHIFT = 23
     const val MAX_PROFILE_SWITCH_DURATION = (7 * 24 * 60).toDouble()// [min] ~ 7 days
 
